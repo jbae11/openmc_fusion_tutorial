@@ -16,6 +16,14 @@ Luckily, [OpenMC](https://github.com/openmc-dev/openmc) is nicely packaged and d
 
 ** Note if you have a Mac with M chips, it might not work. If that's the case, try [this approach to create an intel conda environment](https://blog.rtwilson.com/how-to-create-an-x64-intel-conda-environment-on-your-apple-silicon-mac-arm-conda-install/) and then installing `openmc` after.
 
+## Installing other useful software
+- `cad_to_dagmc`: Another great package from Jonathan Shimwell. [Github](https://github.com/fusion-energy/cad_to_dagmc). Converts STEP files to DAGMC files for OpenMC.
+- `freecad`: Free CAD GUI for visualization
+
+```
+[path_to_micromamba] install -c conda-forge cad_to_dagmc freecad 
+```
+
 ## 3. Test openmc
 Example OpenMC input files [here](https://github.com/openmc-dev/openmc/tree/develop/examples). Two ways of running OpenMC:
 - Run a python script using the OpenMC Python API (recommended)
