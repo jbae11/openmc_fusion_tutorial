@@ -31,3 +31,6 @@ Example OpenMC input files [here](https://github.com/openmc-dev/openmc/tree/deve
 
 ## 4. Other helpful links
 - This is a [great fusion neutronics workshop](https://github.com/fusion-energy/neutronics-workshop) by Jonathan Shimwell. Mostly everything by Jon is great.
+- Coreform Cubit (commercial software!) for a GUI-based generation of DAGMC geometry.
+  - download / register for educational version [here](https://coreform.com/downloads/)
+  - to get an idea of generating DAGMC geometries for OpenMC, reference [this tutorial](https://coreform.com/coreform-cubit-tutorials/tutorial_1/)
